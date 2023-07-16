@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cells{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
